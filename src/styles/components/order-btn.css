@@ -1,0 +1,19 @@
+.order-btn {
+    background-color: var(--main-button-color);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-color-secondary);
+    cursor: pointer;
+    width: 100%;
+    max-width: 205px;
+    padding: 20px 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .order-btn {
+        font-size: 15px;
+    }
+}

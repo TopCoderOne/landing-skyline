@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Prata';
+    src: url('../../assets/fonts/Prata/Prata-Regular.eot');
+    src: local('Prata Regular'), local('Prata-Regular'),
+        url('../../assets/fonts/Prata/Prata-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Prata/Prata-Regular.woff') format('woff'),
+        url('../../assets/fonts/Prata/Prata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

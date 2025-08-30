@@ -1,0 +1,139 @@
+.main {
+    background-color: var(--bg-color-secondary);
+    width: 100%;
+    height: 100%;
+}
+
+.main__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 50px 100px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.main__content {
+    padding: 244px 0 0 162px;
+    margin-bottom: 30px;
+}
+
+.main__title {
+    font-family: var(--font-family-prata);
+    font-weight: 400;
+    font-size: clamp(25px, 5vw - 10px, 50px);
+    color: var(--text-color-primary);
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.main__text {
+    font-weight: 400;
+    font-size: clamp(15px, 5vw - 10px, 25px);
+    color: var(--text-color-primary);
+    margin-bottom: 50px;
+}
+
+.main__list {
+    margin-bottom: 40px;
+}
+
+.main__list>li {
+    background-color: var(--bg-color-primary);
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 29px;
+}
+
+.main__list>li:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.main__list>li>p {
+    font-weight: 400;
+    font-size: clamp(12px, 5vw - 10px, 20px);
+    line-height: 110%;
+    color: var(--text-color-primary);
+}
+
+.main__list>li>p>span {
+    font-family: var(--font-family-prata);
+    font-size: clamp(18px, 5vw - 10px, 25px);
+    text-transform: uppercase;
+}
+
+.main__bg-img {
+    overflow: hidden;
+}
+
+.main__bg-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.main__content>.order-btn {
+    display: block;
+}
+
+@media screen and (max-width: 1280px) {
+    .main__content {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 800px) {
+    .main__content {
+        padding: 120px 0 0 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main__inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .main__content {
+        text-align: center;
+        padding: 150px 15px 0;
+        margin: 0;
+    }
+
+    .main__title {
+        margin: 0 auto 20px;
+    }
+
+    .main__content>.order-btn {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .main__bg-img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main__list>li {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main__content {
+        padding-top: 120px;
+    }
+}

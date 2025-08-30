@@ -1,0 +1,31 @@
+:root {
+    --font-family-base: Arial, Helvetica, sans-serif;
+    --font-family-prata: 'Prata', serif;
+
+    --bg-color-primary: #282829;
+    --bg-color-secondary: #222222;
+
+    --text-color-primary: #ffffff;
+    --text-color-secondary: #222222;
+
+    --header-scroll-bg: #000000df;
+    --mobile-menu-bg-color: #f2f2f2;
+    --main-button-color: #ffffff;
+    --features-list-text: #55565A;
+
+    --form-border-color: #D5C9BE;
+    --form-title-color: #38535D;
+    --form-input-border: #D6D6D6;
+    --form-input-bg: rgba(255, 255, 255, 0.5);
+    --form-button-color: #282829;
+
+    --checkbox-bg: #ffffff;
+    --checkbox-input-border: #405D65;
+    --checkbox-label: #55565A;
+    --checkbox-mark-color: #008000;
+
+    --footer-text-color: #D5C9BE;
+    --footer-border-color: #D5C9BE;
+
+    --overlay: rgba(255, 255, 255, 0.3);
+}

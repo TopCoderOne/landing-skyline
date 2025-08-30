@@ -1,0 +1,15 @@
+.consultation {
+    background-color: var(--bg-color-primary);
+    padding: 100px 20px;
+}
+
+.consultation__inner {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .consultation {
+        padding: 50px 15px;
+    }
+}

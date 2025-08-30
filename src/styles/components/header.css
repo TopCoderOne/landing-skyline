@@ -1,0 +1,77 @@
+.header {
+    padding: 20px 20px 20px 162px;
+    background-color: transparent;
+    -webkit-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+}
+
+.header.active {
+    background-color: var(--header-scroll-bg);
+}
+
+.header__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 783px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0 205px;
+}
+
+@media screen and (min-width: 2496px) {
+    .header__inner {
+        max-width: 2000px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 1530px) {
+    .header {
+        gap: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__inner {
+        max-width: 100%;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 20px 15px;
+    }
+
+    .header__inner {
+        gap: 0;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 10px;
+    }
+}

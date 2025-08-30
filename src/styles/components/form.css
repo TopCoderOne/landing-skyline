@@ -1,0 +1,99 @@
+.form-container {
+    background-color: var(--text-color-primary);
+    background-image: 
+            -webkit-image-set(url('../../assets/images/reception.webp') type('image/webp'),
+            url('../../assets/images/reception.jpeg') type('image/jpeg'));
+            
+    background-image: 
+            image-set(url('../../assets/images/reception.webp') type('image/webp'),
+            url('../../assets/images/reception.jpeg') type('image/jpeg'));
+
+    background-image: url('../../assets/images/reception.jpeg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    width: 100%;
+    max-width: 1597px;
+    border: 2px solid var(--form-border-color);
+    border-radius: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 62.9%;
+    padding: min(8.75vw, 70px) 8%;
+    position: relative;
+    z-index: 2;
+}
+
+.form__title {
+    font-family: var(--font-family-prata);
+    font-weight: 400;
+    font-size: clamp(20px, 5vw - 10px, 54px);
+    margin-bottom: 45px;
+    color: var(--form-title-color);
+}
+
+.form>input {
+    background-color: var(--form-input-bg);
+    border: 2px solid var(--form-input-border);
+    border-radius: 4px;
+    font-family: var(--font-family-prata);
+    font-weight: 700;
+    padding: 13px 20px 13px 38px;
+}
+
+.form>input[name="name"] {
+    margin-bottom: 13px;
+}
+
+.form>button {
+    background-color: var(--form-button-color);
+    color: var(--text-color-primary);
+    display: block;
+    padding: 32px 20px;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .form-container {
+        background: var(--text-color-primary);
+    }
+
+    .form {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .form__title {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto 45px;
+    }
+
+    .form>input {
+        padding: 13px 0 13px 10px;
+    }
+
+    .form>button {
+        padding: 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form__title {
+        margin: 0 auto 20px;
+    }
+}
