@@ -10,7 +10,7 @@
 
 ## 🔗 Github Pages
 
-[Live link](https://alpha3625.github.io/landing-skyline/)
+[Live link](https://topcoderone.github.io/landing-skyline)
 
 ## 📸 Screenshots
 
