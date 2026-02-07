@@ -10,7 +10,7 @@
 
 ## 🔗 Github Pages
 
-[Live link](https://topcoderone.github.io/landing-skyline)
+[Live link](https://landing-skyline-seven.vercel.app/)
 
 ## 📸 Screenshots
 
